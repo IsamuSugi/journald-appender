@@ -1,0 +1,28 @@
+{
+  "name": "journald-appender",
+  "version": "0.1.0",
+  "description": "log4js appender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsamuSugi/journald-appender.git"
+  },
+  "keywords": [
+    "log4js",
+    "journald",
+    "systemd",
+    "appender"
+  ],
+  "author": "Isamu Sugiura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsamuSugi/journald-appender/issues"
+  },
+  "homepage": "https://github.com/IsamuSugi/journald-appender#readme",
+  "dependencies": {
+    "systemd-journald": "^1.4.0"
+  }
+}
